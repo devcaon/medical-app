@@ -8,10 +8,10 @@ export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="bg-blue-950">
+    <header className="bg-blue-950 border-b border-blue-400/30">
       <nav
-        aria-label="Global"
         className="mx-auto flex max-w-7xl items-center justify-between p-4 lg:px-8"
+        aria-label="Global"
       >
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
@@ -103,9 +103,9 @@ export default function Navbar() {
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <a
             href="#"
-            className="text-sm font-semibold leading-6 text-gray-50 bg-blue-500 py-3 px-6 rounded-md"
+            className="text-sm font-semibold leading-6 text-gray-50 bg-blue-500 hover:bg-blue-800 py-3 px-6 rounded-md"
           >
-            Log in <span aria-hidden="true">&rarr;</span>
+            Login <span aria-hidden="true">&rarr;</span>
           </a>
         </div>
       </nav>
