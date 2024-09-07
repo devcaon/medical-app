@@ -34,8 +34,9 @@ const Hero = () => {
                   <span> sessions now</span>
                 </h1>
                 <p className="mb-8 max-w-[480px] text-base text-gray-100 dark:text-gray-50-6">
-                  Health shouldn't be a puzzle, we are cutting through the B.S
-                  to bring your simple, affordable, and transparent healthcare.
+                  Health shouldn&apos;t be a puzzle, we are cutting through the
+                  B.S to bring your simple, affordable, and transparent
+                  healthcare.
                 </p>
                 {/* SEARCH BAR */}
                 <SearchBar />
